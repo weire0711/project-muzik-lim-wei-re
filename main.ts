@@ -2,7 +2,7 @@ input.onButtonPressed(Button.A, function () {
     music.playMelody("C D E F G A B C5 ", 120)
 })
 input.onButtonPressed(Button.AB, function () {
-    music.playTone(587, music.beat(BeatFraction.Whole))
+    music.playTone(523, music.beat(BeatFraction.Whole))
     music.playTone(659, music.beat(BeatFraction.Whole))
     music.playTone(784, music.beat(BeatFraction.Half))
     music.playTone(784, music.beat(BeatFraction.Half))
